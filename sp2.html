@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiderman</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div class="container">
+        <header><!--header-->
+        <div class="logo"> <!--logo-->
+        <a href="index.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhFREqOpNCFgDcyAgE43MC8722VSFS5482t9QPRCAxgg&usqp=CAU&ec=48665701" alt="logo" width="50px" height="50px">
+        <img src="data:image/png;base64,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" alt="spman" height="50px" width="200px">
+        </a>
+    </div>
+
+    <div class="search"><!-- search bar -->
+       <form>
+            <input type="search" name="s"  placeholder="SEARCH...">
+            <input type="submit" value=">">
+        </form>
+    </div> 
+    <div class="clearfix">
+        <nav class="main-menu"><!--nav-->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="servicesss.html">Services</a>
+                    <ul class="sublist">
+                        <li><a href="service1.html">S1</a></li>
+                        <li><a href="service2.html">S2</a></li>
+                        <li><a href="service3.html">S3</a></li>
+                    </ul></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    </nav>
+    </div>
+</header>
+
+
+<section class="content-holder"><!--content holder-->
+    <article class="content"><!--content-->
+        <main>
+            
+            <h1>Spider Man 2</h1>
+            <p>
+                In 2012, Spider-Man2 discovered his father was friends 
+                with  Dr. Curt Connors, a scientist at Oscorp in the field of cross-species genetics.
+                Dr. Connors had his right arm amputed till is elbow.
+                Spider-Man2 reveals whose son he is and gives Connors 
+                his father's "decay rate algorithm," the missing 
+                piece in Connors' experiments on regenerating limbs.
+                After seeing success with the lab rats using lizard DNA,
+                Connors tries the formula on himself. After passing out, he awakens to find his missing arm has regenerated
+                and he had become a violent humanoid reptile.Spider-Man, saved the people on the bridge from Connors' attack.
+                The Lizard had plans to make all humans reptilian by releasing a chemical cloud from Oscorp's tower, to eliminate the weaknesses he believes plague humanity. 
+                Gwen creates an antidote, which Spider-Man2 dispersed, which restored Connors and his victims to normal.
+            </p>
+            <img src="https://i.pinimg.com/236x/93/ed/f1/93edf1f2c111cbef035f41f0f0009bba.jpg" alt="s1">
+            <p>
+                In 2014, While working in an Oscorp laboratory, a electrical engineer Max Dillon accidentally shocked himself and fell into a tank of genetically-engineered electric eels. They attacked  him and he mutated into a living electric generator causing 
+                a rise of New villain "Electro' in NYC.But Spider-Man2 defeats
+                him with the help of Gwen.
+
+            </p>
+        </main>
+    </article><!--content-->
+
+    <aside class="sidebar"><!--sidebar-->
+        <div>
+            <h3>Widget</h3>
+            <ul>
+                <li><a href="sp1.html">Spider-Man 1</a></li>
+                <li><a href="sp2.html">Spider-Man 2</a></li>
+                <li><a href="sp3.html">Spider-Man 3</a></li>
+            </ul>
+        </div>
+    </aside><!--sidebar-->
+    <div class="clearfix"></div>
+</section><!--content holder-->
+<footer class="main-footer">
+    <div class="footer-box">
+        <h3>Footer menu</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="servicesss.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="footer-box">
+        <h3>Services</h3>
+        <ul>
+            <li><a href="service1.html">Service One </a></li>
+            <li><a href="service2.html">Services Two</a></li>
+            <li><a href="service3.html">Service Three</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-box">
+        <address>
+            <h3>Contact info</h3>
+            <p>Address: #100, Someplace, Somewhere, 98765</p>
+            <p>Email:<a href="mailto:contact@gamil.com">Spiderman@gmail.com</a></p>
+            <p> PH:<a href="tel:1234567">1234567</a></p>
+        </address>
+        </div>
+        <div class="clearfix"></div>
+</footer><!--footer-->
+<div class="Copyright">
+    <p><small>Copyright &copy; 2020. All rights reserved</small></p>
+</div>
+
+</div>
+<div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<script src="http://malsup.github.io/jquery.cycle2.js"></script>
+</div>
+</body>
+</html>
